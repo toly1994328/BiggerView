@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--<com.toly1994.biggerview.view.BiggerView2-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:background="@color/darkblue"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:z_bv_rate="3"-->
+        <!--app:z_bv_src="@mipmap/iv_500x400"/>-->
+
+    <com.toly1994.biggerview.view.BiggerView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="#0000ff"
+        app:z_fit_src="@mipmap/iv_500x400"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <!--<com.toly1994.biggerview.view.FitImageView-->
+        <!--android:id="@+id/f1"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="200dp"-->
+        <!--android:background="@color/darkblue"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:z_fit_src="@mipmap/sabar"/>-->
+    <!---->
+    <!--<com.toly1994.biggerview.view.FitImageView-->
+        <!--android:id="@+id/f2"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:background="@color/darkblue"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:z_fit_src="@mipmap/sabar"/>-->
+
+</android.support.constraint.ConstraintLayout>

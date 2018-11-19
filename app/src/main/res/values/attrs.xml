@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--图片放大镜-->
+    <declare-styleable name="FitImageView">
+        <!--图片资源-->
+        <attr name="z_fit_src" format="reference"/>
+    </declare-styleable>
+    <!--图片放大镜-->
+    <declare-styleable name="BiggerView">
+        <!--半径-->
+        <attr name="z_bv_radius" format="dimension"/>
+        <!--边线宽-->
+        <attr name="z_bv_outline_width" format="dimension"/>
+        <!--进度色-->
+        <attr name="z_bv_outline_color" format="color"/>
+        <!--放大倍率-->
+        <attr name="z_bv_rate" format="float"/>
+    </declare-styleable>
+</resources>
